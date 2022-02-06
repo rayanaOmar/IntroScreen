@@ -27,12 +27,14 @@ class PageDecoration {
     this.titleTextStyle = const TextStyle(
       fontSize: 25.0,
       fontWeight: FontWeight.bold,
-      color: Colors.white70
+      color: Colors.white70,
+      fontFamily: 'Cairo'
     ),
     this.bodyTextStyle = const TextStyle(
       fontSize: 18.0,
       fontWeight: FontWeight.normal,
-        color: Colors.white70
+        color: Colors.white70,
+        fontFamily: 'Cairo'
     ),
     this.boxDecoration,
     this.imageFlex = 1,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:intro_screen/src/model/page_view_model.dart';
+import 'package:intro_screen/introduction_screen/src/model/page_view_model.dart';
+
 
 class IntroContent extends StatelessWidget {
 

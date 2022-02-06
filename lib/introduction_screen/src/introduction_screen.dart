@@ -5,12 +5,11 @@ import 'dart:math';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:dots_indicator/dots_indicator.dart';
-import 'package:intro_screen/src/helper.dart';
-import 'package:intro_screen/src/model/page_view_model.dart';
-import 'package:intro_screen/src/model/position.dart';
-import 'package:intro_screen/src/ui/intro_button.dart';
-import 'package:intro_screen/src/ui/intro_page.dart';
-
+import 'package:intro_screen/introduction_screen/src/helper.dart';
+import 'package:intro_screen/introduction_screen/src/model/page_view_model.dart';
+import 'package:intro_screen/introduction_screen/src/model/position.dart';
+import 'package:intro_screen/introduction_screen/src/ui/intro_button.dart';
+import 'package:intro_screen/introduction_screen/src/ui/intro_page.dart';
 
 class IntroductionScreen extends StatefulWidget {
 
@@ -245,8 +244,7 @@ class IntroductionScreenState extends State<IntroductionScreen> {
                       isTopSafeArea: widget.isTopSafeArea,
                       isBottomSafeArea: widget.isBottomSafeArea,
                     ),
-                )
-                  .toList() ?? widget.rawPages!,
+                ).toList() ?? widget.rawPages!,
               ),
             ),
       ),

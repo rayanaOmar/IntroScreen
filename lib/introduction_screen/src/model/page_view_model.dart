@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:intro_screen/src/model/page_decoration.dart';
+import 'package:intro_screen/introduction_screen/src/model/page_decoration.dart';
+
+
 
 class PageViewModel {
   final String? title; // Title of page
